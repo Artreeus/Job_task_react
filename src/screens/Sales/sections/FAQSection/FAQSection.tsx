@@ -11,7 +11,8 @@ const faqItems = [
   {
     id: "01",
     question: "What Is Included In Your Web Development Service?",
-    answer: "",
+    answer:
+      "Our web development service includes website design, development, testing, deployment, and ongoing maintenance. We provide a full package, ensuring your site is user-friendly, responsive, and optimized for performance.",
     defaultOpen: false,
   },
   {
@@ -24,22 +25,26 @@ const faqItems = [
   {
     id: "03",
     question: "What If I Need Ongoing Support After The Website Is Launched?",
-    answer: "",
+    answer:
+      "We offer ongoing support after the website launch. Our support packages include updates, security patches, troubleshooting, and performance monitoring to keep your website running smoothly.",
     defaultOpen: false,
   },
   {
     id: "04",
     question: "Can I Customize My Website According To My Business Needs?",
-    answer: "",
+    answer:
+      "Yes, we provide full customization options. Whether it's design, functionality, or features, we can tailor your website to meet your specific business requirements and goals.",
     defaultOpen: false,
   },
   {
     id: "05",
-    question: "Do You Offer Seo Services As Part Оf Your Web Development?",
-    answer: "",
+    question: "Do You Offer SEO Services As Part Of Your Web Development?",
+    answer:
+      "Yes, we offer SEO services as part of our web development. We ensure that your website is optimized for search engines to help improve your visibility and ranking.",
     defaultOpen: false,
   },
 ];
+
 
 export const FAQSection = (): JSX.Element => {
   return (

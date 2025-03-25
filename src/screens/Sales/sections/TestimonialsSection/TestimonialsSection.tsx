@@ -1,4 +1,4 @@
-import { StarIcon } from "lucide-react";
+import { ChevronLeftIcon, StarIcon } from "lucide-react";
 import React from "react";
 import { Card, CardContent } from "../../../../components/ui/card";
 
@@ -125,11 +125,7 @@ export const TestimonialsSection = (): JSX.Element => {
 
       <div className="flex items-center gap-4">
         <button className="w-[34px] h-[34px] rounded-md border border-solid border-[#0a2c8c] flex items-center justify-center">
-          <img
-            className="w-6 h-6 rotate-180"
-            alt="Previous"
-            src="/chevron-up.svg"
-          />
+          <ChevronLeftIcon/>
         </button>
 
         <button className="w-[34px] h-[34px] rounded-md bg-[#ff693b] flex items-center justify-center">

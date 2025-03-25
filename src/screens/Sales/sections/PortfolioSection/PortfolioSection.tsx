@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export const PortfolioSection = (): JSX.Element => {
   // Team members data for mapping
@@ -79,40 +80,14 @@ export const PortfolioSection = (): JSX.Element => {
           size="icon"
           className="w-[34px] h-[34px] border-[#0a2c8c] rounded-md p-0"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="24" 
-            height="24" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="h-6 w-6 rotate-180"
-          >
-            <path d="m18 15-6-6-6 6"/>
-          </svg>
+         <ChevronLeft/>
         </Button>
         <Button
           variant="outline"
           size="icon"
-          className="w-[34px] h-[34px] bg-[#ff693b] border-none rounded-md p-0"
+          className="w-[34px] h-[34px] bg-[#ff693b] border-none rounded-md p-0 text-white"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="24" 
-            height="24" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="white" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="h-6 w-6"
-          >
-            <path d="m18 15-6-6-6 6"/>
-          </svg>
+          <ChevronRight/>
         </Button>
       </div>
     </section>
