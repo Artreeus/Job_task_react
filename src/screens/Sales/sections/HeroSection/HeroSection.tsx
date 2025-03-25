@@ -76,7 +76,7 @@ const stats = [
 
 export const HeroSection = () => {
   return (
-    <section className="relative w-full bg-[#001655] overflow-hidden z-0 pt-72 md:pt-40 sm:pt-0 p-16">
+    <section className="relative w-full bg-[#001655] overflow-hidden z-0 pt-72">
       {/* Background elements */}
       <div className="absolute bottom-0 left-0 w-full h-[152px] bg-[#001142] blur-[97px]" />
       <div className="absolute top-[245px] right-[400px] w-[381px] h-[390px] bg-[#0a3cc999] rounded-[190.5px/195px] blur-[132px]" />

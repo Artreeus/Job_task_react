@@ -2,6 +2,7 @@ import  { useState } from "react";
 import { Button } from "../../../../components/ui/button";
 import { Card } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export const ClientsSection = (): JSX.Element => {
   const [activeCategory, setActiveCategory] = useState("UI/UX");
@@ -109,6 +110,25 @@ export const ClientsSection = (): JSX.Element => {
               ))}
             </div>
           </div>
+          <div className="flex justify-center mx-auto gap-4 mt-8">
+        <Button
+          variant="outline"
+          size="icon"
+          className="h-8 w-8 rounded-md border border-[#0a2c8c]"
+         
+        >
+          <ChevronLeft className="h-4 w-4" />
+          <span className="sr-only">Previous slide</span>
+        </Button>
+        <Button
+          size="icon"
+          className="h-8 w-8 rounded-md bg-[#ff693b]"
+         
+        >
+          <ChevronRight className="h-4 w-4" />
+          <span className="sr-only">Next slide</span>
+        </Button>
+      </div>
 
           {/* Footer text */}
           <div className="flex items-center gap-4 justify-end w-full mt-4">
