@@ -9,56 +9,50 @@ const serviceCards = [
     id: 1,
     title: "WordPress Website",
     description: "Design & Development",
-    icon: "/vector-87.svg",
-    backgroundIcon: "/vector-172.svg",
+    icon: "/p1.png",
+   
   },
   {
     id: 2,
     title: "Content Writing",
     description: "For entire project",
-    icon: "/group-16.png",
+    icon: "/p2.png",
   },
   {
     id: 3,
     title: "Monthly SEO",
     description: "Rank #1 on google",
-    icon: "/group-45.png",
+    icon: "/p3.png",
   },
   {
     id: 4,
     title: "Brand Marketing",
     description: "From start to end",
-    icon: "/star-3.svg",
+    icon: "/p1.png",
   },
   {
     id: 5,
     title: "Social Media Post",
     description: "Full Social kit",
-    icon: "/group-81.png",
-  },
-  {
-    id: 6,
-    title: "Animated Video",
-    description: "Up to 1 minute",
-    icon: "/group-97.png",
+    icon: "/p2.png",
   },
   {
     id: 7,
     title: "Animated Video",
     description: "Up to 10-Page",
-    icon: "/vector-26.svg",
+    icon: "/p3.png",
   },
   {
     id: 8,
     title: "Professional Logo",
     description: "Create brand identity",
-    icon: "/vector-34.svg",
+    icon: "/p1.png",
   },
   {
     id: 9,
     title: "Custom Graphics",
     description: "Up to 4",
-    icon: "/vector-26.svg",
+    icon: "/p2.png",
   },
 ];
 
@@ -156,13 +150,13 @@ export const HeroSection = () => {
               {serviceCards.map((service) => (
                 <div 
                   key={service.id} 
-                  className="flex-[0_0_100%] sm:flex-[0_0_50%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%] min-w-0 pl-4"
+                  className="flex-[0_0_100%] sm:flex-[0_0_50%] md:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%] min-w-0 pl-4  "
                 >
                   <Card
-                    className="relative mx-2 h-[358px] bg-[#3057c633] rounded border border-solid border-[#ffffff38] backdrop-blur-[36px]"
+                    className="relative mx-2 h-[358px] bg-[#3057c633] rounded border border-solid border-[#ffffff38] backdrop-blur-[36px] "
                   >
                     {/* Card icon/image placeholder */}
-                    <div className="flex justify-center items-center h-[152px] mt-10 relative">
+                    <div className="flex justify-center items-center h-[152px]  relative pt-3">
                       {service.icon && (
                         <img
                           src={service.icon}
@@ -170,17 +164,11 @@ export const HeroSection = () => {
                           className="w-auto h-auto max-h-[152px]"
                         />
                       )}
-                      {service.backgroundIcon && (
-                        <img
-                          src={service.backgroundIcon}
-                          alt=""
-                          className="absolute"
-                        />
-                      )}
+                     
                     </div>
 
                     {/* Card content */}
-                    <div className="flex flex-col items-center gap-4 mt-6">
+                    <div className="flex flex-col items-center gap-4 mt-6 ">
                       <h3 className="font-['Inter',Helvetica] font-semibold text-white text-2xl text-center leading-[42px]">
                         {service.title}
                       </h3>
@@ -190,7 +178,7 @@ export const HeroSection = () => {
                     </div>
 
                     {/* Card buttons */}
-                    <div className="flex items-center gap-2 justify-center mt-4">
+                    <div className="flex items-center gap-2 justify-center mt-4 ">
                       <Button className="w-[129px] h-9 bg-[#0b89ff] hover:bg-[#0b89ff]/90 text-white rounded-[30px] text-sm">
                         Portfolio
                       </Button>

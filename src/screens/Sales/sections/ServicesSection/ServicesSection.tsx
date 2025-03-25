@@ -22,7 +22,7 @@ const serviceCards = [
     subtitle: "No hassle with best price",
     description:
       "A hassle-free process that saves you time, with everything you need in one seamless package at an incredibly attractive price.",
-    imageSrc: "/clip-path-group-72.png", // Using one of the images as main image
+    imageSrc: "/l2.png", // Using one of the images as main image
     bgColor: "bg-[#ffffffbd]",
     textColor: "text-[#414141]",
     subtitleColor: "text-[#002aa2]",
@@ -36,7 +36,7 @@ const serviceCards = [
     subtitle: "Get 9 services in one package",
     description:
       "You're getting web design, development, content writing, social media kit, custom graphics, and business consultation—all in one combo package!",
-    imageSrc: "/-.svg",
+    imageSrc: "/l1.png",
     bgColor: "bg-[#ffffffbd]",
     textColor: "text-[#414141]",
     subtitleColor: "text-[#002aa2]",
